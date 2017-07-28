@@ -1,5 +1,5 @@
 # Source (Web server)
-docker run -d --rm --name riz2nginx riz2nginx:nginx
+docker run -d --rm --name riz2nginx voidrizvi/riz2nginx:nginx
 
 # Reciever (Client - curl)
 docker run -it --rm --link riz2nginx:aliriz2nginx --name ubuntu_app ubuntu.curl:1.0 bash
