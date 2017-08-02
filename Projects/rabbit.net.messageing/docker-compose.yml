@@ -1,0 +1,23 @@
+version: '3'
+services:
+  sender:
+    build: ./Sender
+    container_name: riz-sender
+    environment:
+    - RABBITMQ_HOST=172.18.98.219
+    - RABBITMQ_USER=rizvi
+    - RABBITMQ_PASS=riz123
+
+  rcvr:
+    build: ./Reciever
+    container_name: riz-rcvr
+    environment:
+    - RABBITMQ_HOST=172.18.98.219
+    - RABBITMQ_USER=rizvi
+    - RABBITMQ_PASS=riz123
+
+
+networks:
+  default:
+    external:
+      name: nat
