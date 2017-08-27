@@ -1,8 +1,12 @@
+#Check containers log
+#C:\Users\A547184\AppData\Local\Docker\log.txt 
 # --rm will remove the container when the exit from terminal (--it necessary to stay in the terminal)
 docker run --rm -it -p 8080:80 nginx
 # -v create a volume mount(shared file system with host)
 docker run --rm -it -p 8080:80 -v C:/Users/A547184/Downloads/nginxweb:/usr/share/nginx/html nginx
-# "-v /my-volume" will map /my-volume to host filesystem automatically (check with docker inspect) 
+docker run --rm -it -p 8080:80 -v C:/Users/A547184/Git/Repos/python-cronicals:/pymy tedder42/ubuntu-python3-scipy bash
+# "-v /my-volume" will map /my-volume to host filesystem automatically (check with docker inspect)
+
 
 # -d runs container in background - preferabilly name the container with --name; (should not be used with --rm which is not applicable with -d)
 docker run -d -p 8080:80 --name riznginx nginx
@@ -58,7 +62,7 @@ docker push voidrizvi/riz2nginx:nginx
 
 
 # To Get a container log
-docker log container_id
+docker logs container_id
 # To follow the log(te. ping request log).
-docker log -f container_id
+docker logs -f container_id
 
