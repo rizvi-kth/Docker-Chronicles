@@ -62,3 +62,9 @@ docker images | sls nginx
 # To check isolated envoronment in host and container run this command
 ls env:\
 git.io/vPj49
+
+
+#Save Image to a file
+sudo docker save -o jupyter-tensorflow-notebook jupyter/tensorflow-notebook
+#Load image
+sudo docker load jupyter-tensorflow-notebook    

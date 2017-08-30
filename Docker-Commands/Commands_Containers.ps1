@@ -5,6 +5,7 @@ docker run --rm -it -p 8080:80 nginx
 # -v create a volume mount(shared file system with host)
 docker run --rm -it -p 8080:80 -v C:/Users/A547184/Downloads/nginxweb:/usr/share/nginx/html nginx
 docker run --rm -it -p 8080:80 -v C:/Users/A547184/Git/Repos/python-cronicals:/pymy tedder42/ubuntu-python3-scipy bash
+docker run -it --rm -p 8888:8888 jupyter/tensorflow-notebook
 # "-v /my-volume" will map /my-volume to host filesystem automatically (check with docker inspect)
 
 
