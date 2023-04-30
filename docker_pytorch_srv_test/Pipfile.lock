@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7ce4e101419e05e7735f7f7c8e5d8c0fa42c686808096b0d87f62e179c3a403b"
+            "sha256": "a5b9aa442f3d0fc62004d1c14a4fa4af519bcdc0628e4ee8633ee3f2d862622c"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.8"
+            "python_version": "3.11"
         },
         "sources": [
             {
@@ -102,7 +102,7 @@
                 "sha256:f8303414c7b03f794347ad062c0516cee0e15f7a612abd0ce1e25caf6ceb47df",
                 "sha256:fca62a8301b605b954ad2e9c3666f9d97f63872aa4efcae5492baca2056b74ab"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==3.1.0"
         },
         "enum-compat": {
@@ -130,11 +130,11 @@
         },
         "huggingface-hub": {
             "hashes": [
-                "sha256:42eeab833284e3fc1d39263cf9c3d1bb36b129acdd8195838694d165e8dd6cae",
-                "sha256:fa6a6139fe4a8a164bfd0cda90c225fe8471b47c12811738b6db8348a2f703a0"
+                "sha256:9ab899af8e10922eac65e290d60ab956882ab0bf643e3d990b1394b6b47b7fbc",
+                "sha256:9fc619170d800ff3793ad37c9757c255c8783051e1b5b00501205eb43ccc4f27"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==0.14.0"
+            "markers": "python_full_version >= '3.7.0'",
+            "version": "==0.14.1"
         },
         "idna": {
             "hashes": [
@@ -392,11 +392,11 @@
         },
         "requests": {
             "hashes": [
-                "sha256:64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa",
-                "sha256:98b1b2782e3c6c4904938b84c0eb932721069dfdb9134313beff7c83c2df24bf"
+                "sha256:e8f3c9be120d3333921d213eef078af392fba3933ab7ed2d1cba3b56f2568c3b",
+                "sha256:f2e34a75f4749019bb0e3effb66683630e4ffeaf75819fb51bebef1bf5aef059"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4'",
-            "version": "==2.28.2"
+            "index": "pypi",
+            "version": "==2.29.0"
         },
         "tokenizers": {
             "hashes": [

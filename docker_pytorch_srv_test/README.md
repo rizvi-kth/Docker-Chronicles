@@ -11,9 +11,9 @@
 - Create the Dockerfile
 
     - Install packages from `requirements.txt`
-    - ?? Copy the .MAR file in the image
     - Copy the entry-point script to startthe server
     - docker-compose up
+        - Volume bind the .mar files with the image
 
 
 
